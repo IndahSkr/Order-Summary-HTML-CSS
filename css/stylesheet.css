@@ -1,0 +1,36 @@
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    color: hsl(223, 47%, 23%);
+    background-color: hsl(225, 100%, 94%);
+    border-radius: 10px;
+}
+
+.container {
+    height: auto;
+    width: 450px;
+    background-color: white;
+    margin: 50px auto;
+    border-radius: 20px;
+}
+
+.upper img {
+    border-radius: 20px 20px 0 0;
+    /* background-image: url("illustration-hero.svg"); */
+    text-align: center;
+    color: white;
+}
+
+.first h2,
+p {
+    text-align: center;
+}
+
+.first {
+    padding: 25px 50px;
+}
+
+.content {
+    align-content: center;
+    align-items: center;
+}
