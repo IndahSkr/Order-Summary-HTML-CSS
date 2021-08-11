@@ -3,34 +3,172 @@ body {
     font-size: 16px;
     color: hsl(223, 47%, 23%);
     background-color: hsl(225, 100%, 94%);
-    border-radius: 10px;
 }
 
-.container {
+.border {
+    background-color: white;
+    border-radius: 20px;
+    margin: 30px auto;
+    padding-bottom: 20px;
+    height: auto;
+    width: 450px;
+}
+
+.image img {
+    border-radius: 20px 20px 0 0;
+}
+
+.text-top {
+    padding: 25px;
+    text-align: center;
+}
+
+.text-top p {
+    padding: 0 50px 0 50px;
+    color: hsla(224, 23%, 55%);
+    line-height: 1.5;
+}
+
+.text-center {
+    background-color: hsla(225, 100%, 94%, 0.5);
+    margin: 0 25px 50px 25px;
+    border-radius: 25px;
+    /* flex-direction: column; */
+    display: flex;
+}
+
+.img-center img {
+    margin: 25px;
+}
+
+.text-2 a {
+    text-decoration: bold;
+}
+
+.text-2 {
+    text-align: right;
+    padding-left: 100px;
+    padding-top: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+    /* float: right; */
+}
+
+.text-2:hover {
+    opacity: 70%;
+    text-decoration: none;
+}
+
+.botton {
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 30px;
+    margin: 30px;
+    display: block;
+}
+
+.proceed {
+    background-color: hsla(245, 75%, 52%, 1);
+    color: white;
+    padding: 20px 120px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 15px hsla(225, 100%, 94%, 1);
+    /* margin: 0 25px 0 25px; */
+}
+
+.proceed:hover {
+    opacity: 80%;
+}
+
+.bottom {
+    text-align: center;
+    text-decoration: none;
+    margin: 25px;
+    display: block;
+    opacity: 80%;
+    cursor: pointer;
+}
+
+.bottom:hover {
+    opacity: 100%;
+}
+
+
+/* .btn {
+    display: inline-block;
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px 150px;
+} */
+
+
+/* .container {
     height: auto;
     width: 450px;
     background-color: white;
     margin: 50px auto;
     border-radius: 20px;
-}
+} */
 
-.upper img {
+
+/* .upper img {
     border-radius: 20px 20px 0 0;
     /* background-image: url("illustration-hero.svg"); */
-    text-align: center;
-    color: white;
-}
 
-.first h2,
+
+/* text-align: center;
+color: white;
+
+} */
+
+
+/* .first h2,
 p {
     text-align: center;
-}
+    line-height: 1.5;
+} */
 
-.first {
+
+/* .first p {
+    opacity: 92%;
+    color: hsla(224, 23%, 55%);
+} */
+
+
+/* .first {
     padding: 25px 50px;
-}
+} */
 
-.content {
+
+/* .content {
     align-content: center;
     align-items: center;
 }
+
+.tengah {
+    background-color: red;
+    padding-left: 20px;
+    padding-right: 20px;
+} */
+
+
+/* .icon {
+    float: left;
+    align-content: center;
+}
+
+.second {
+    float: left;
+}
+
+.second p,
+h4 {
+    text-align: left;
+    line-height: 0;
+    display: block;
+}
+
+.third a {
+    float: right;
+} *
